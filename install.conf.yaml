@@ -7,6 +7,7 @@
 - link:
     ~/.tmux.conf: shell/.tmux.conf
     ~/.config/fish/config.fish: shell/.config/fish/config.fish
+    ~/.config/fish/completions/poetry.fish: shell/.config/fish/completions/poetry.fish
 
 - create:
     - ~/.vim/undo-history
