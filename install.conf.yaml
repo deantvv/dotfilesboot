@@ -10,6 +10,7 @@
     ~/.config/fish/completions/poetry.fish: shell/.config/fish/completions/poetry.fish
     ~/.config/alacritty/alacritty.yml: gui/.config/alacritty/alacritty.yml
     ~/.config/skhd/skhdrc: gui/.config/skhd/skhdrc
+    ~/.config/yabai/yabairc: gui/.config/yabai/yabairc
 
 - create:
     - ~/.vim/undo-history
