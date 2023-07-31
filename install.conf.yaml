@@ -11,6 +11,7 @@
     ~/.config/alacritty/alacritty.yml: gui/.config/alacritty/alacritty.yml
     ~/.config/skhd/skhdrc: gui/.config/skhd/skhdrc
     ~/.config/yabai/yabairc: gui/.config/yabai/yabairc
+    ~/.config/nvim: editor/.config/nvim
 
 - create:
     - ~/.vim/undo-history
