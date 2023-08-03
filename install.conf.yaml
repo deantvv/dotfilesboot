@@ -5,7 +5,7 @@
 - clean: ['~']
 
 - link:
-    ~/.tmux.conf: shell/.tmux.conf
+    ~/.config/tmux: shell/.config/tmux
     ~/.config/fish/config.fish: shell/.config/fish/config.fish
     ~/.config/fish/completions/poetry.fish: shell/.config/fish/completions/poetry.fish
     ~/.config/alacritty/alacritty.yml: gui/.config/alacritty/alacritty.yml
@@ -15,6 +15,12 @@
 
 - create:
     - ~/.vim/undo-history
+    - ~/.config
+    - ~/.config/fish
+    - ~/.config/fish/completions
+    - ~/.config/alacritty
+    - ~/.config/skhd
+    - ~/.config/yabai
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
